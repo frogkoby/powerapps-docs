@@ -42,7 +42,7 @@ The shopping list will hold several individual lines of text, so you'll need to 
 
 1. Select **Variables** then **New variable** to create a new variable.
 
-1. The **New variable** box will appear. Under name **Name** enter "myGroceryList".
+1. The **New variable** box will appear. Under name **Name** enter "MyGroceryList".
 
 1. Set the variable **Type** to *Table*. Keep the **Value Persistance** set to **Temporary**.
 
@@ -103,7 +103,7 @@ The list you've created is currently empty, so the final step is to give the car
 
 ### Add the Power Fx expression
 
-1. With the button selected, add in the following line of code into the Power Fx editor at the top: `Collect(myGroceryList, theNewItem)`
+1. With the button selected, add in the following line of code into the Power Fx editor at the top: `Collect(MyGroceryList, TheNewItem)`
 
 This PowerFX expression will append the contents of the `theNewItem` field to the `myGroceryList` table.
 
